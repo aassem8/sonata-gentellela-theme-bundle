@@ -18,7 +18,6 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder('kinulab_sonata_gentellela_theme');
-        $rootNode = $treeBuilder->root('kinulab_sonata_gentellela_theme');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
